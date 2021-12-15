@@ -185,6 +185,7 @@ footer {
     color: #fafafa;
     min-height: 120px;
     margin: 0;
+    padding-bottom: 0;
 }
 
 .cv-pdf i {
@@ -354,21 +355,6 @@ footer {
     margin-bottom: 20px;
 }
 
-.center-form {
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 70%;
-}
-
-.form-control {
-    margin-bottom: 10px;
-}
-
-button[type="submit"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
-}
-
 /*--------------------------------------------Progress bar */
 
 .html-bar {
@@ -397,11 +383,24 @@ button[type="submit"] {
 
 /*--------------------------------------------Media queries */
 
-@media(min-width: 992px) {
-    .center-form {
-        padding-top: 30px;
-        min-height: 240px;
-        margin: 0 auto;
-        max-width: 50%;
+.responsive {
+    max-width: 300px;
+    height: auto;
+    align-content: center;
+  }
+
+
+  @media(max-width: 600px) {
+    .boho-living {
+        padding-bottom: 40px; 
     }
 }
+
+
+  
+
+
+
+
+
+
