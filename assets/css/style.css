@@ -11,7 +11,8 @@
 }
 
 .bg-color-personal-info {
-    background-color: #f4f4f4;
+    background-color: #697184;
+    color: #FFF;
 }
 
 .bg-color-work-history {
@@ -104,7 +105,7 @@ header {
 }
 
 .title {
-    font-family: "Roboto", sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 200;
     font-size: 28px;
     margin-top: 20px;
@@ -143,7 +144,7 @@ header {
 }
 
 .menuitem a i {
-    padding-top: 22px;
+    padding-top: 35px;
     display: block;
     color: #fafafa;
     font-size: 26px;
@@ -242,6 +243,11 @@ footer {
     margin-bottom: 15px;
 }
 
+.btn-portfolio {
+    background-color: #413F3D;
+    color: #FFF;
+}
+
 /*--------------------------------------------Personal info */
 
 .personal-info-item {
@@ -269,12 +275,13 @@ footer {
 }
 
 .personal-info-item .key p {
-    font-weight: 700;
+    font-weight: 300;
 }
 
 .personal-info-item .value {
     position: relative;
     width: 60%;
+    font-weight: 300;
 }
 
 /*--------------------------------------------Skills */
@@ -355,6 +362,7 @@ footer {
     margin-bottom: 20px;
 }
 
+
 /*--------------------------------------------Progress bar */
 
 .html-bar {
@@ -389,11 +397,23 @@ footer {
     align-content: center;
   }
 
+  @media(max-width: 425px) {
+    .heading {
+        padding-left: 40px;
+    }
+    .lazy-vegan {
+        padding-top: 40px;
+    }
+
+    @media(max-width: 375px) {
+        .heading {
+            padding-left: 15px;
+        }
 
   @media(max-width: 600px) {
     .boho-living {
         padding-bottom: 40px; 
-    }
+  }
 }
 
 
