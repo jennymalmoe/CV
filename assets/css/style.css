@@ -11,8 +11,8 @@
 }
 
 .bg-color-personal-info {
-    background-color: #697184;
-    color: #FFF;
+    background-color: #E6D7D0;
+    
 }
 
 .bg-color-work-history {
@@ -24,19 +24,19 @@
 }
 
 .ui-menu-color-home {
-    background-color: #B1A6A4;
+    background-color: #D7B9AA;
 }
 
 .ui-menu-color-resume {
-    background-color: #697184;
+    background-color: #E6D7D0;
 }
 
 .ui-menu-color-contact {
-    background-color: #D8CFD0;
+    background-color: #413F3D;
 }
 
 .ui-menu-color-download {
-    background-color: #413F3D;
+    background-color: #D1B7A1;
 }
 
 /*--------------------------------------------Special paddings/margins/text */
@@ -76,6 +76,12 @@ h4 {
     margin-top: 25px;
     margin-bottom: 40px;
 }
+
+.responsive {
+    max-width: 300px;
+    height: auto;
+    align-content: center;
+  }
 
 /*--------------------------------------------Heading*/
 
@@ -244,8 +250,7 @@ footer {
 }
 
 .btn-portfolio {
-    background-color: #413F3D;
-    color: #FFF;
+    margin-top: 25px;
 }
 
 /*--------------------------------------------Personal info */
@@ -370,15 +375,15 @@ footer {
 }
 
 .css-bar {
-    background-color: #B1A6A4;
+    background-color: #BA9785;
 }
 
 .js-bar {
-    background-color: #697184;
+    background-color: #D7B9AA;
 }
 
 .django-bar {
-    background-color: #D8CFD0;
+    background-color: #E6D7D0;
 }
 
 .sql-bar {
@@ -386,16 +391,22 @@ footer {
 }
 
 .ux-bar {
-    background-color: rgb(29, 27, 27);
+    background-color: #D1B7A1;
+}
+
+/*--------------------------------------------Portfolio */
+
+.portfolio {
+    font-family: Lato;
+}
+
+.portfolio-heading {
+    background-color: #E6D7D0;
 }
 
 /*--------------------------------------------Media queries */
 
-.responsive {
-    max-width: 300px;
-    height: auto;
-    align-content: center;
-  }
+
 
   @media(max-width: 425px) {
     .heading {
@@ -403,6 +414,12 @@ footer {
     }
     .lazy-vegan {
         padding-top: 40px;
+    }
+    .what {
+        padding-bottom: 30px;
+    }
+    .how {
+        padding-bottom: 30px;
     }
 
     @media(max-width: 375px) {
