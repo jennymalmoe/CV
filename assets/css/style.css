@@ -66,7 +66,7 @@ h4 {
 
 .section-column {
     display: table-cell;
-    padding: 0 30px 30px;
+    padding: 0 20px 30px;
     float: none;
 }
 
@@ -90,7 +90,7 @@ header {
 }
 
 .heading {
-    margin-left: 50px;
+    margin-left: 15px;
 }
 
 .logo {
@@ -116,7 +116,7 @@ header {
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
-    color: #fff;
+    color: #E6D7D0;
 }
 
 .list-inline-item:not(:last-child) {
@@ -251,6 +251,8 @@ footer {
 
 .btn-portfolio {
     margin-top: 25px;
+    background-color: #413F3D;
+    color: #FFF;
 }
 
 /*--------------------------------------------Personal info */
@@ -287,6 +289,12 @@ footer {
     position: relative;
     width: 60%;
     font-weight: 300;
+}
+
+.value-link {
+    color: #413F3D;
+    text-decoration: none;
+    text-decoration: underline;
 }
 
 /*--------------------------------------------Skills */
@@ -402,6 +410,14 @@ footer {
 
 .portfolio-heading {
     background-color: #E6D7D0;
+}
+
+.card-img-top {
+    padding-bottom: 20px;
+}
+
+.pull-right {
+    margin: 0 0 0 auto;
 }
 
 /*--------------------------------------------Media queries */
