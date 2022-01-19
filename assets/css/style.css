@@ -402,6 +402,20 @@ footer {
     background-color: #D1B7A1;
 }
 
+.git-bar {
+    background-color: #9b8a8c;
+}
+
+.bs-bar {
+    background-color: #BA9785;
+}
+
+.c-bar {
+    background-color: #D7B9AA;
+}
+
+
+
 /*--------------------------------------------Portfolio */
 
 .portfolio {
@@ -418,6 +432,10 @@ footer {
 
 .pull-right {
     margin: 0 0 0 auto;
+}
+
+.portfolio-bg {
+    
 }
 
 /*--------------------------------------------Media queries */
